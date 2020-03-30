@@ -1,0 +1,313 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto|Montserrat);
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+  font-family: Helvetica, Arial, sans-serif;
+	overflow: none;
+}
+
+.wrapper{
+	display: block;
+	border: 1px solid red;
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat' , Helvetica, Arial, sans-serif;
+	font-size: 2.5rem;
+}
+
+ul {
+	padding: 0px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.0rem;
+}
+
+header {
+	margin: auto;
+	width: 100vw;
+	height: 12vh;
+	display: block;
+	position: relative;
+	background-color: white;
+	overflow: hidden;
+	z-index: 1;
+}
+
+nav {
+	margin: 10px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	position: absolute;
+	justify-content: space-between;
+	align-items: center;
+	opacity: 1;
+}
+
+.logo {
+	float: left;
+	display: block;
+	width: auto;
+	padding-left: 20px;
+}
+
+.logo img {
+	height: auto;
+}
+
+.menu {
+	float: left;
+	display: block;
+	height: auto;
+	width: 70%;
+	margin: 20px;
+	text-align: center;
+}
+
+.menu li {
+	display: inline;
+	padding: 0 15px;
+}
+
+.menu a {
+	color: black;
+	text-shadow: ;
+	font-family: Arial, Tahoma, Arial, sans-serif;
+	font-size: 1.0rem;
+}
+
+.menu a:hover {
+	color: #D92804;
+	transition: 0.5s;
+}
+
+.social {
+	float: right;
+	display: flex;
+	padding-right: 20px;
+	width: auto;
+}
+
+.social li {
+	display: inline;
+	padding: 2px;
+}
+
+.social img {
+	height: 24px;
+	width: 24px;
+}
+
+.social a:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+section {
+	margin: auto;
+	position: relative;
+	clear: both;
+}
+
+#slideshow {
+	margin: auto;
+	width: 75vw;
+	height: 75vh;
+	display: flex;
+	overflow: hidden;
+}
+
+#slideshow img {
+	width: 100%;
+	height: auto;
+	max-height: 600px;
+}
+
+#mob_slideshow {
+	display: none;
+}
+
+slides {
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#welcome {
+	margin: 40px;
+	padding: 10px;
+	width: 30%;
+	height: auto;
+	float: left;
+	text-align: center;
+	line-height: 1.4rem;
+}
+
+#welcome h1 {
+}
+
+#welcome p {
+	text-align: justify;
+	font-family: 'Roboto'
+}
+
+#profile  {
+	margin: auto;
+	padding: 10px;
+	display: block;
+	width: 28%;
+	height: auto;
+	float: left;
+	background: lightgray;
+}
+
+#profile img {
+	margin:  auto;
+	width: 100%;
+	height: auto;
+	opacity: 1.0;
+
+}
+
+#testimonial  {
+	margin: 40px;
+	padding: 10px;
+	display: block;
+	float: right;
+	width: 25%;
+	height: auto;
+	text-align: left;
+}
+
+#ludwig {
+  padding-left: 1em;
+  border-left: 3px solid #D97904;
+  font-family: 'Montserrat', serif;
+  line-height: 1.4rem;
+  font-weight: 100;
+  &:before, &:after {
+      content: '\201C';
+      font-family: 'Montserrat';
+      color: lighten($black, 40%);
+   }
+   &:after {
+      content: '\201D';
+   }
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+footer {
+	margin-top: 20px;
+	width: 100vw;
+	height: 12vh;
+	position: relative;
+	z-index: 1;
+	clear: both;
+}
+
+footer li {
+	display: inline;
+}
+
+.contact {
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	letter-spacing: 2px;
+}
+
+.contact li {
+	display: inline;
+}
+
+.contact img {
+	height: 10px;
+	width: 10px;
+	padding-right: 2px;
+}
+
+.contact a {
+	font-size: 0.8rem;
+	font-family: Arial;
+	color: black;
+}
+
+.contact a:hover {
+	padding: 2px;
+	color: #D92804;
+	transition: 0.5s;
+}
+
+.mobile {
+		display: none;
+	}
+
+/* Small screens */
+@media screen and (max-width: 860px) {
+
+	.logo {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.social {
+		display: none;
+	}
+
+	.contact {
+		display: none;
+	}
+
+	.mobile {
+		box-sizing: border-box;
+		display: block;
+		width: 100vw;
+		border: 1px solid red;
+	}
+
+	.mob_logo {
+			display: flex;
+			text-align: center;
+	}
+
+	.mobile ul {
+			display: none;
+			float: right;
+	}
+}
