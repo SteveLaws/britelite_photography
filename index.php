@@ -3,7 +3,7 @@
 <head>
 	<?php include 'includes/head.php' ?>
 	<!-- Scripts -->
-		<?php include "includes/scripts.php" ?>
+		<?php include "includes/scripts.php" ?>°
 </head>
 
 <body>
