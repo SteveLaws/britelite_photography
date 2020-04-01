@@ -1,5 +1,3 @@
-#Mac Update
-
 <!DOCTYPE html>
 <html>
 <head>
