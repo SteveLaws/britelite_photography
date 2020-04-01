@@ -118,7 +118,7 @@ nav {
 }
 
 section {
-	margin: auto;
+	margin: 0 auto;
 	position: relative;
 	clear: both;
 }
@@ -127,14 +127,14 @@ section {
 	margin: auto;
 	width: 75vw;
 	height: 75vh;
+	justify-content: center;
 	display: flex;
 	overflow: hidden;
 }
 
 #slideshow img {
-	width: 100%;
-	height: auto;
-	max-height: 600px;
+	width: auto;
+	height: 100%;
 }
 
 #mob_slideshow {
