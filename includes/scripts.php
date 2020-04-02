@@ -41,6 +41,10 @@
 
   </script>
 
+  <!-- lightbox -->
+  <script src="js/lightbox.min.js" type="text/javascript"></script>
+  <script src="js\lightbox-plus-jquery.min.js" type="text/javascript"></script>
+
 
   <!-- Mobile Menu -->
   <script type="text/javascript">

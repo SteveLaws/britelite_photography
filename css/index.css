@@ -33,6 +33,7 @@ a {
 	font-size: 1.0rem;
 }
 
+/* Header section */
 header {
 	margin: auto;
 	width: 100vw;
@@ -117,6 +118,7 @@ nav {
 	transition: 0.5s;
 }
 
+/* Body section */
 section {
 	margin: 0 auto;
 	position: relative;
@@ -147,6 +149,22 @@ slides {
 	height: auto;
 }
 
+/* Gallery */
+.Gallery {
+	margin: 10px 50px;
+}
+
+.Gallery img {
+		padding: 5px;
+		width: 200px;
+		transition: 1s;
+}
+
+.Gallery img:hover {
+		filter: grayscale();
+		transform: scale(1:1);
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -155,78 +173,17 @@ slides {
   animation-duration: 1.5s;
 }
 
-#welcome {
-	margin: 40px;
-	padding: 10px;
-	width: 30%;
-	height: auto;
-	float: left;
-	text-align: center;
-	line-height: 1.4rem;
-}
-
-#welcome h1 {
-}
-
-#welcome p {
-	text-align: justify;
-	font-family: 'Roboto'
-}
-
-#profile  {
-	margin: auto;
-	padding: 10px;
-	display: block;
-	width: 28%;
-	height: auto;
-	float: left;
-	background: lightgray;
-}
-
-#profile img {
-	margin:  auto;
-	width: 100%;
-	height: auto;
-	opacity: 1.0;
-
-}
-
-#testimonial  {
-	margin: 40px;
-	padding: 10px;
-	display: block;
-	float: right;
-	width: 25%;
-	height: auto;
-	text-align: left;
-}
-
-#ludwig {
-  padding-left: 1em;
-  border-left: 3px solid #D97904;
-  font-family: 'Montserrat', serif;
-  line-height: 1.4rem;
-  font-weight: 100;
-  &:before, &:after {
-      content: '\201C';
-      font-family: 'Montserrat';
-      color: lighten($black, 40%);
-   }
-   &:after {
-      content: '\201D';
-   }
-}
-
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+	from {opacity: .4}
+	to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+	from {opacity: .4}
+	to {opacity: 1}
 }
 
+/* Footer Page */
 footer {
 	margin-top: 20px;
 	width: 100vw;
@@ -274,6 +231,70 @@ footer li {
 .mobile {
 		display: none;
 	}
+
+	/* About Page */
+	#welcome {
+		margin: 40px;
+		padding: 10px;
+		width: 30%;
+		height: auto;
+		float: left;
+		text-align: center;
+		line-height: 1.4rem;
+	}
+
+	#welcome h1 {
+	}
+
+	#welcome p {
+		text-align: justify;
+		font-family: 'Roboto'
+	}
+
+	#profile  {
+		margin: auto;
+		padding: 10px;
+		display: block;
+		width: 28%;
+		height: auto;
+		float: left;
+		background: lightgray;
+	}
+
+	#profile img {
+		margin:  auto;
+		width: 100%;
+		height: auto;
+		opacity: 1.0;
+
+	}
+
+	#testimonial  {
+		margin: 40px;
+		padding: 10px;
+		display: block;
+		float: right;
+		width: 25%;
+		height: auto;
+		text-align: left;
+	}
+
+	#ludwig {
+	  padding-left: 1em;
+	  border-left: 3px solid #D97904;
+	  font-family: 'Montserrat', serif;
+	  line-height: 1.4rem;
+	  font-weight: 100;
+	  &:before, &:after {
+	      content: '\201C';
+	      font-family: 'Montserrat';
+	      color: lighten($black, 40%);
+	   }
+	   &:after {
+	      content: '\201D';
+	   }
+	}
+
 
 /* Small screens */
 @media screen and (max-width: 860px) {

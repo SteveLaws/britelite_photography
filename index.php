@@ -22,7 +22,7 @@
 		<img class="slides fade" src="images/cityhall.jpg" />
 		<img class="slides fade" src="images/usmail.jpg" />
 		<img class="slides fade" src="images/squareboy.jpg" />
-			<img class="slides fade" src="images/parkstage.jpg" />
+		<img class="slides fade" src="images/parkstage.jpg" />
 	</div>
 </section>
 
