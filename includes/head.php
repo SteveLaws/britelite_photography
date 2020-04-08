@@ -24,9 +24,8 @@
 	<!-- Google Fonts -->
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-	<!-- Indexx CSS -->
+	<!-- Index CSS -->
 	<link href="css/index.css" rel="stylesheet" type="text/css">
 
-	<!-- owlCarousel -->
-	<link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
-	<link href="css/owl.theme.default.css" rel="stylesheet" type="text/css">
+	<!-- lightbox -->
+	<link href="css/lightbox.min.css" rel="stylesheet" type="text/css">

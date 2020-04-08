@@ -10,12 +10,7 @@
 
 body, html {
   font-family: Helvetica, Arial, sans-serif;
-	overflow: none;
-}
-
-.wrapper{
-	display: block;
-	border: 1px solid red;
+	overflow: hidden;
 }
 
 h1, h2, h3 {
@@ -57,6 +52,66 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	opacity: 1;
+}
+
+/* Body section */
+section {
+	margin: 0 auto;
+	position: relative;
+}
+
+/* Footer Page */
+footer {
+	margin-top: 20px;
+	width: 100vw;
+	height: 12vh;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	clear: both;
+}
+
+footer li {
+	display: inline;
+}
+
+.wrapper{
+	display: flex;
+	margin: auto;
+	padding: 8px;
+}
+
+.column-1 {
+	flex: 1;
+	order: 1;
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+	text-align: center;
+}
+
+.column-2 {
+	flex: 1;
+	order: 2;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+.column-1 p {
+	margin: 2px auto;
+	text-align: justify;
+	font-family: 'Roboto';
+	line-height: 1.4rem;
+	width: 80%;
+}
+
+.column-2 img {
+	margin: auto;
+	width: auto;
+	height: 500px;
+	opacity: 1.0;
+	box-shadow: 4px 4px 8px #D98E04;
 }
 
 .logo {
@@ -118,13 +173,6 @@ nav {
 	transition: 0.5s;
 }
 
-/* Body section */
-section {
-	margin: 0 auto;
-	position: relative;
-	clear: both;
-}
-
 #slideshow {
 	margin: auto;
 	width: 75vw;
@@ -152,17 +200,23 @@ slides {
 /* Gallery */
 .Gallery {
 	margin: 10px 50px;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	overflow: auto;
 }
 
 .Gallery img {
 		padding: 5px;
 		width: 200px;
+		height: 160px;
 		transition: 1s;
 }
 
 .Gallery img:hover {
-		filter: grayscale();
-		transform: scale(1:1);
+		filter: grayscale(100%);
+		transform: scale(1.05);
+		transition: 1s;
 }
 
 /* Fading animation */
@@ -181,20 +235,6 @@ slides {
 @keyframes fade {
 	from {opacity: .4}
 	to {opacity: 1}
-}
-
-/* Footer Page */
-footer {
-	margin-top: 20px;
-	width: 100vw;
-	height: 12vh;
-	position: relative;
-	z-index: 1;
-	clear: both;
-}
-
-footer li {
-	display: inline;
 }
 
 .contact {
@@ -232,58 +272,16 @@ footer li {
 		display: none;
 	}
 
-	/* About Page */
-	#welcome {
-		margin: 40px;
-		padding: 10px;
-		width: 30%;
-		height: auto;
-		float: left;
-		text-align: center;
-		line-height: 1.4rem;
-	}
-
-	#welcome h1 {
-	}
-
-	#welcome p {
-		text-align: justify;
-		font-family: 'Roboto'
-	}
-
-	#profile  {
-		margin: auto;
-		padding: 10px;
-		display: block;
-		width: 28%;
-		height: auto;
-		float: left;
-		background: lightgray;
-	}
-
-	#profile img {
-		margin:  auto;
-		width: 100%;
-		height: auto;
-		opacity: 1.0;
-
-	}
-
-	#testimonial  {
-		margin: 40px;
-		padding: 10px;
-		display: block;
-		float: right;
-		width: 25%;
-		height: auto;
-		text-align: left;
-	}
-
 	#ludwig {
+		margin: 2px;
 	  padding-left: 1em;
-	  border-left: 3px solid #D97904;
+		padding: 1em;
+	  border-left: 3px solid #2A5559;
 	  font-family: 'Montserrat', serif;
-	  line-height: 1.4rem;
+	  line-height: 2.4rem;
+		letter-spacing: 0.2em;
+		font-style: italic;
+		text-shadow: 2px 4px lightgray;
 	  font-weight: 100;
 	  &:before, &:after {
 	      content: '\201C';
@@ -293,6 +291,9 @@ footer li {
 	   &:after {
 	      content: '\201D';
 	   }
+
+		 #ludwig h1 {
+
 	}
 
 

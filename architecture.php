@@ -14,7 +14,12 @@
 
 <!-- Slideshow -->
 <section>
-	<div id="gallery fade">
+	<div class="Gallery fade">
+		<a href="images/mpark.jpg" data-lightbox="gallery_a"><img src="images/mpark.jpg" /></a>
+		<a href="images/mpark.jpg" data-lightbox="gallery_a"><img src="images/mpark.jpg" /></a>
+		<a href="images/mpark.jpg" data-lightbox="gallery_a"><img src="images/mpark.jpg" /></a>
+		<a href="images/mpark.jpg" data-lightbox="gallery_a"><img src="images/mpark.jpg" /></a>
+		<a href="images/mpark.jpg" data-lightbox="gallery_a" ><img src="images/mpark.jpg" /></a>
 		<a href="images/mpark.jpg" data-lightbox="gallery_a"><img src="images/mpark.jpg" /></a>
 		<a href="images/mpark.jpg" data-lightbox="gallery_a"><img src="images/mpark.jpg" /></a>
 		<a href="images/mpark.jpg" data-lightbox="gallery_a"><img src="images/mpark.jpg" /></a>
