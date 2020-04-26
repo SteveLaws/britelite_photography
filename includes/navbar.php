@@ -10,7 +10,6 @@
 			<li><a href="architecture.php">Architectural</a></li>
 			<li><a href="./gallery2.html">Real Estate</a></li>
 			<li><a href="./gallery3.html">Landscapes</a></li>
-			<li><a href="personal.php">Personal</a></li>
 		</ul>
 
 		<!-- Social Media Links -->
@@ -37,7 +36,6 @@
 			<li><a href="architecture.php">Architectural</a></li>
 			<li><a href="./gallery2.html">Real Estate</a></li>
 			<li><a href="./gallery3.html">Landscapes</a></li>
-			<li><a href="./gallery4.html">Personal</a></li>
 		</ul>
 	</div>
 

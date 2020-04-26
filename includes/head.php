@@ -24,8 +24,19 @@
 	<!-- Google Fonts -->
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-	<!-- Index CSS -->
-	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<!-- Standard CSS -->
+	<link href="css/index.css" rel="stylesheet" type="text/css" media="screen and (min-width: 481px)">
+
+<!-- Mobile CSS-->
+	<link href="css/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width: 480px)">
+
+	<!-- jQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- jQuery Mobile CDN -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 
 	<!-- lightbox -->
 	<link href="css/lightbox.min.css" rel="stylesheet" type="text/css">

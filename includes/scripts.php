@@ -1,22 +1,5 @@
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <!-- Slideshow -->
+    <!-- Slideshow -->
   <script src="js/slideshow.js" type="text/javascript" ></script>
-
-  <!-- owlCarousel jQuery -->
-  <script src="js/owl.carousel.min.js" type="text/javascript" ></script>
-
-  <script>
-    $(window).on('load', function(){
-      $('.owl-carousel').owlCarousel({
-          margin:10,
-          loop:true,
-          autoWidth:true,
-          items:4
-      })
-    })
-  </script>
 
   <!-- scrollreveal -->
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>

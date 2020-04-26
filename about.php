@@ -20,9 +20,9 @@
 					"It was a pleasure working with you."
 				</h1>
 				<p>
-					Born in Toronto, ON to parents who immigrated from the Carribean, Steven first became involved with architectural images while completing a diploma in architectural technology. Shortly after finishing his diploma at Humber College in Toronto, he began working with likeminded individuals with a love art and design.<br /><br />
+					Born in Toronto, ON to parents who immigrated from the Carribean, Steven first became involved with architectural images while completing a diploma in architectural technology. Shortly after finishing his diploma at Humber College in Toronto, he began working with likeminded individuals with a love for art and design.<br /><br />
 
-					He has worked with realtors in the GTA with many of his images used for listings for the sale of homes and condos. Using buildings as his model, Steven's keen eye for leading lines and basic shapes helps model 2D images into a 3D ideas through imagery.
+					He has worked with realtors in the GTA with many of his images used in listings for the sale of homes and condos. Using buildings as his model, Steven's keen eye for leading lines and basic shapes results in the creation of 2D images that come to life.
 				</p>
 			</div>
 

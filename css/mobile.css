@@ -26,7 +26,7 @@ a {
 	font-size: 1.0rem;
 }
 
-/* Header */
+/* Header section */
 header {
 	margin: auto;
 	width: auto;
@@ -48,16 +48,18 @@ nav {
 	position: absolute;
 	justify-content: space-between;
 	align-items: center;
+	border: 1px solid black;
 	z-index: 1;
 }
 
-/* Body */
+/* Body section */
 section {
 	margin: auto;
 	width: 100vw;
 	height: 85vh;
 	position: relative;
 	align-items: center;
+	border: 1px solid green;
 }
 
 /* Footer Page */
